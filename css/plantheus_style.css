@@ -39,6 +39,11 @@ a:focus, a:hover{
 ul > li > a:hover{
 	color: #0bdc6a!important;
 }
+@media (min-width: 992px){
+#mainNav .navbar-nav>li>a, #mainNav .navbar-nav>li>a:focus {
+    color:rgba(255,255,255);
+	}
+}
 #mainNav .navbar-nav>li>a.active{
 	color: #2fbe70!important;
 }

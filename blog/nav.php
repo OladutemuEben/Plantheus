@@ -19,7 +19,7 @@
     </div>
   </nav>
 
-  <header class="masthead">
+  <!--<header class="masthead">
     <div class="container h-100">
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
@@ -32,11 +32,10 @@
             <div class="device-mockup galaxy_s3 portrait black">
               <div class="device">
                 <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                   <img src="/plantheus/img/plantheus-screen1.jpeg" class="img-fluid" alt="Plantheus"> 
                 </div>
                 <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  You can hook the "home button" to some JavaScript events or just remove it
                 </div>
               </div>
             </div>
@@ -44,4 +43,4 @@
         </div>
       </div>
     </div>
-  </header>
+  </header>-->

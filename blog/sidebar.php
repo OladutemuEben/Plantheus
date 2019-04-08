@@ -1,5 +1,5 @@
   <!-- Sidebar Widgets Column -->
-  <div class="col-md-4">
+  <div class="col-lg-4">
 
     <!-- Search Widget -->
     <div class="card my-4">
@@ -53,24 +53,33 @@
       <h5 class="card-header">Tags</h5>
       <div class="card-body">
         <div class="row">
-          <div class="col-4">
+          <div class="col-7">
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="#" class="tag">Agriculture</a>
               </li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-5">
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="#" class="tag">Farmers</a>
               </li>
             </ul>
           </div>
-          <div class="col-5">
+        </div>
+        <div class="row">
+          <div class="col-7">
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="#" class="tag">The Future</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-5">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="tag">Farming</a>
               </li>
             </ul>
           </div>
@@ -96,13 +105,6 @@
             <ul class="list-unstyled mb-0">
               <li>
                 <a href="#" class="tag">The Sprouting of a Seed</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-3" style="padding-left: 0px">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#" class="tag">Farming</a>
               </li>
             </ul>
           </div>

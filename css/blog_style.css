@@ -39,6 +39,11 @@ a:focus, a:hover{
 ul > li > a:hover{
 	color: #0bdc6a!important;
 }
+@media (min-width: 992px){
+#mainNav .navbar-nav>li>a, #mainNav .navbar-nav>li>a:focus {
+    color: green;
+	}
+}
 #mainNav .navbar-nav>li>a.active{
 	color: #2fbe70!important;
 }
@@ -87,6 +92,7 @@ header.masthead .device-container {
 	height: 240px!important;
 	width: 360px!important;
 }
+	/*DEVICE MOCKUPS ENDS*/
 .get-app{
 	border: 2px solid #019445;
 }
@@ -143,4 +149,12 @@ a{
 	background-color: transparent;
 	border-radius: unset;
 	margin-bottom: 0px;
+}
+.width-adj{
+	width: 330px;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.no-pad-left{
+	padding-left: 0px;
 }

@@ -26,10 +26,13 @@
         <hr>
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
+        <!-- Hidden only on xs, Hidden only on sm, Hidden only on md  (would show on large screens)-->
+          <img class="card-img-top d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" src="/plantheus/img/farmer.jpg" alt="Plantheus" height="400px">
+          <!-- Visible only on xs, Visible only on sm, Visible only on md (would show on small and medium screens)-->
+          <img class="card-img-top d-block d-sm-none d-none d-sm-block d-md-none" src="/plantheus/img/farmer.jpg" alt="Plantheus" height="270px">
         <div class="container">
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb justify-center">
+            <ol class="breadcrumb justify-center width-adj">
               <li class="breadcrumb-item"><a href="#"><i class="fa fa-folder"></i> Category</a></li>
               <li class="breadcrumb-item"><a href="#"><i class="fa fa-tag"></i> Tag</a></li>
               <li class="breadcrumb-item"><a href="#"><i class="fa fa-comments"></i> Comment (4)</a></li>
@@ -133,10 +136,10 @@
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="#" style="color: #0a783c"><i class="fa fa-arrow-left"></i> Older</a>
+            <a class="page-link" href="#" style="color: #0a783c"><i class="fa fa-arrow-left"></i> Title of last post</a>
           </li>
           <li class="page-item disabled">
-            <a class="page-link" href="#" style="color: #0a783c">Newer <i class="fa fa-arrow-right"></i></a>
+            <a class="page-link" href="#" style="color: #0a783c">Title of next post <i class="fa fa-arrow-right"></i></a>
           </li>
         </ul>
 

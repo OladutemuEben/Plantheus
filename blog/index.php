@@ -15,13 +15,16 @@
 
         <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+          <!-- Hidden only on xs, Hidden only on sm, Hidden only on md  (would show on large screens)-->
+          <img class="card-img-top d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" src="/plantheus/img/farmer.jpg" alt="Plantheus" height="400px">
+          <!-- Visible only on xs, Visible only on sm, Visible only on md (would show on small and medium screens)-->
+          <img class="card-img-top d-block d-sm-none d-none d-sm-block d-md-none" src="/plantheus/img/farmer.jpg" alt="Plantheus" height="270px">
           <div class="card-body">
             <h2 class="card-title text-bold">Post Title</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <div class="container">
+            <div class="container no-pad-left">
               <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-center">
+                <ol class="breadcrumb justify-center width-adj">
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-folder"></i> Category</a></li>
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-tag"></i> Tag</a></li>
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-comments"></i> Comment (4)</a></li>
@@ -38,13 +41,16 @@
 
         <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+          <!-- Hidden only on xs, Hidden only on sm, Hidden only on md  (would show on large screens)-->
+          <img class="card-img-top d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" src="/plantheus/img/farming.jpg" alt="Plantheus" height="400px">
+          <!-- Visible only on xs, Visible only on sm, Visible only on md (would show on small and medium screens)-->
+          <img class="card-img-top d-block d-sm-none d-none d-sm-block d-md-none" src="/plantheus/img/farming.jpg" alt="Plantheus" height="270px">
           <div class="card-body">
             <h2 class="card-title text-bold">Post Title</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <div class="container">
+            <div class="container no-pad-left">
               <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-center">
+                <ol class="breadcrumb justify-center width-adj">
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-folder"></i> Category</a></li>
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-tag"></i> Tag</a></li>
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-comments"></i> Comment (4)</a></li>
@@ -61,13 +67,16 @@
 
         <!-- Blog Post -->
         <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+          <!-- Hidden only on xs, Hidden only on sm, Hidden only on md  (would show on large screens)-->
+          <img class="card-img-top d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" src="/plantheus/img/leaves.jpg" alt="Plantheus" height="400px">
+          <!-- Visible only on xs, Visible only on sm, Visible only on md (would show on small and medium screens)-->
+          <img class="card-img-top d-block d-sm-none d-none d-sm-block d-md-none" src="/plantheus/img/leaves.jpg" alt="Plantheus" height="270px">
           <div class="card-body">
             <h2 class="card-title text-bold">Post Title</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <div class="container">
+            <div class="container no-pad-left">
               <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-center">
+                <ol class="breadcrumb justify-center width-adj">
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-folder"></i> Category</a></li>
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-tag"></i> Tag</a></li>
                   <li class="breadcrumb-item"><a href="#"><i class="fa fa-comments"></i> Comment (4)</a></li>
@@ -84,11 +93,11 @@
 
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
-          <li class="page-item">
-            <a class="page-link" href="#" style="color: #0a783c"><i class="fa fa-arrow-left"></i> Older</a>
-          </li>
           <li class="page-item disabled">
-            <a class="page-link" href="#" style="color: #0a783c">Newer <i class="fa fa-arrow-right"></i></a>
+            <a class="page-link" href="#" style="color: #0a783c"><i class="fa fa-arrow-left"></i> Prev</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#" style="color: #0a783c">Next <i class="fa fa-arrow-right"></i></a>
           </li>
         </ul>
 
