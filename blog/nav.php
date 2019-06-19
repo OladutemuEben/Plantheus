@@ -12,6 +12,9 @@
             <a class="nav-link js-scroll-trigger text-bold " href="/plantheus">Home</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-bold" href="/plantheus/plantheus-app.html">Plantheus App</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger text-bold" href="/plantheus/blog">Blog</a>
           </li>
         </ul>
